@@ -44,6 +44,6 @@ cacheSolve <- function(x, ...) {
 		invMatrix <- solve(data, ...)
 		
 		## set the inverse of the matrix
-		x$setInv(invMatrix)
+		x$setinv(invMatrix)
 		invMatrix
 }
